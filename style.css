@@ -1,0 +1,81 @@
+:root {
+  --blue: ​#007bc1;
+  --darkBlue: ​#004a75;
+  --orange: ​#ff8000;
+  --darkOrange: ​#cc6600;
+  --smokeGrey: ​#e5e5e5;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background-image: url("/assets/work-desk__dustin-lee.jpg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  background: rgba(0, 74, 117, 0.5);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  padding-bottom: 132px;
+}
+
+.hero_logo img {
+  width: 48px;
+  margin: 10px 20px;
+}
+
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 70px;
+  z-index: 10;
+}
+
+.hero_text h1 {
+  font-weight: 300;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.hero_text h2 {
+  font-weight: 600;
+  margin: 5px 0;
+  color: #fff;
+}
+
+.hero_text h3 {
+  font-weight: 300;
+  margin: 5px 0;
+  line-height: 26px;
+  color: #fff;
+}
+
+.hero_button {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  margin-top: 20px;
+  width: 185px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.hero_button:hover {
+  color: var(--blue);
+  background-color: #fff;
+}
