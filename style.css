@@ -127,11 +127,24 @@ body {
 
 .fal,
 .fad,
-.fas {
+.fas,
+.far {
   padding-top: 15px;
+  color: #b9b9b9;
 }
 
 .panel-desc p {
   font-size: 14px;
   line-height: 20px;
+}
+
+.footer {
+  background-color: var(--darkBlue);
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  color: white;
 }
