@@ -1,9 +1,9 @@
 :root {
-  --blue: ​#007bc1;
-  --darkBlue: ​#004a75;
-  --orange: ​#ff8000;
-  --darkOrange: ​#cc6600;
-  --smokeGrey: ​#e5e5e5;
+  --blue: #007bc1;
+  --darkBlue: #004a75;
+  --orange: #ff8000;
+  --darkOrange: #cc6600;
+  --smokeGrey: #e5e5e5;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
 }
 
 .hero_text h1 {
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 0;
   color: #fff;
 }
@@ -73,9 +73,65 @@ body {
   margin-right: auto;
   margin-bottom: 30px;
   font-size: 17px;
+  border-radius: 5px;
 }
 
 .hero_button:hover {
-  color: var(--blue);
+  color: var(--darkBlue);
   background-color: #fff;
+}
+
+.highlights {
+  background-color: var(--smokeGrey);
+  padding: 60px 20px;
+}
+
+.highlights-title {
+  text-align: center;
+}
+
+.highlights-title h1 {
+  font-weight: 400;
+}
+
+.highlights-title p {
+  width: 590px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlights-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-panel {
+  border: 1px solid #b9b9b9;
+  padding: 20px;
+  width: 361px;
+  margin: 15px;
+}
+
+.panel-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-title h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.fal,
+.fad,
+.fas {
+  padding-top: 15px;
+}
+
+.panel-desc p {
+  font-size: 14px;
+  line-height: 20px;
 }
