@@ -13,16 +13,17 @@
       Hairul Ardhan Nawazaki | Cermati.com Front-end Developer Entry Test
     </title>
   </head>
-  <body>
+  <body onscroll="myFunction()">
     <div class="notif">
-      <p class="notif_desc">
-        By accessing and using this website, you acknowledge that you have read and <br />
-        understand our <a href="#">Cookie Policy</a> ,<a href="#">Privacy Policy</a> , and our <a href="#">Terms of Service</a> .
-      </p>
+      <h5 class="notif_desc">
+        By accessing and using this website, you acknowledge that you have read and 
+        understand our <a href="#">Cookie Policy</a> ,<a href="#">Privacy Policy</a>,
+        and our <a href="#">Terms of Service</a> .
+      </h5>
       <a href="#" class="notif_btn" onclick="closeNotif()"> Got it</a>
     </div>
-    <header class="hero">
-      <div class="overlay">
+    <header class="hero" >
+      <div class="overlay" id="hero">
         <div class="hero_logo">
           <img src="./assets/y-logo-white.png" alt="logo" />
         </div>
@@ -39,7 +40,7 @@
         </div>
       </div>
     </header>
-    <section class="highlights">
+    <section class="highlights" >
       <div class="highlights-title">
         <h1>How Can I Help You?</h1>
         <p>
@@ -136,7 +137,25 @@
         </p>
       </div>
     </section>
-
+    <div class="newsletter">
+      <div class="newsletter_close">
+        <a href="#" id="close_btn" >x</a>
+      </div>
+      <div class="newsletter_content">
+        <h2 class="newsletter_title">
+          Get latest updates in web technologies
+        </h2>
+        <p class="newsletter_desc">
+          I write articles related to web technologies, such as design trends, development
+          tools, UI/UX case studies and reviews, and more. Sign up to my newsletter to get
+          them all.
+        </p>
+        <div>
+          <input type="email" class="newsletter_email" placeholder="Email address">
+          <a href="#" class="newsletter_btn"> Count me in!</a>
+        </div>
+      </div>
+    </div>
     <script src="./main.js"></script>
   </body>
 </html>
